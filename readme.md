@@ -46,13 +46,13 @@ Unfortunately, github won't allow the actual Raspberry Pi image to be uploaded (
   
   * Raspbian Wheezy image (updated and upgraded)
   * Mosquitto
-      wget http://repo.mosquitto.org/debian/mosquitto-repo.gpg.key
-      sudo apt-key add mosquitto-repo.gpg.key
-      rm mosquitto-repo.gpg.key
-      cd /etc/apt/sources.list.d/
-      sudo wget http://repo.mosquitto.org/debian/mosquitto-repo.list
-      sudo apt-get update
-      sudo apt-get install mosquitto mosquitto-clients
+      * wget http://repo.mosquitto.org/debian/mosquitto-repo.gpg.key
+      * sudo apt-key add mosquitto-repo.gpg.key
+      * rm mosquitto-repo.gpg.key
+      * cd /etc/apt/sources.list.d/
+      * sudo wget http://repo.mosquitto.org/debian/mosquitto-repo.list
+      * sudo apt-get update
+      * sudo apt-get install mosquitto mosquitto-clients
   * Python 3
   * PIP (should already be installed from Python 3)
   * Mosquitto Python wrapper
